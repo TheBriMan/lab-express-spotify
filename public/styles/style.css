@@ -1,0 +1,45 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: georgia;
+}
+
+html { 
+    background: url(../images/spotify-background.jpeg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: #000;
+}
+
+.index-body {
+    background-color: rgba(255,255,255,0.5);
+    padding: 100px;
+}
+
+#button-index {
+    padding: 5px;
+    background-color:lightcoral;
+    color: white;
+    border:lightcoral;
+}
+
+.index-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.albums-img {
+    width: 10px;
+}
